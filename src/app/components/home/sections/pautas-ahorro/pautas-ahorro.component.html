@@ -1,0 +1,64 @@
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col-12">
+            <h6>Los p*t@s del ahorro</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 pl-4 mt-2">
+            <div id="slide-0" *ngIf="status==1" class=" card simulandoVideoImg slide">
+                <img class="simulandoVideoPlay" src="../../../../../assets/media/play_circle_outline_24px.png" alt="circle">
+                <div class="tituloAhorro">
+                    <h6>Esto es AHORRO</h6>
+                    <p style="font-size: x-small;">Conoce como nuestro RoboAdvisor crea el mejor proftafolio de inversión par ti.</p>
+                </div>
+            </div>
+            <div id="slide-1" *ngIf="status==2" class="card  slide"><img class="simulandoVideoPlay" src="../../../../../assets/media/play_circle_outline_24px.png" alt="circle">
+                <div class="tituloAhorro">
+                    <h6>Slider 2</h6>
+                    <p style="font-size: x-small;">Conoce como nuestro RoboAdvisor crea el mejor proftafolio de inversión par ti.</p>
+                </div>
+            </div>
+            <div id="slide-2" *ngIf="status==3" class="card  slide"><img class="simulandoVideoPlay" src="../../../../../assets/media/play_circle_outline_24px.png" alt="circle">
+                <div class="tituloAhorro">
+                    <h6>Slider 3</h6>
+                    <p style="font-size: x-small;">Conoce como nuestro RoboAdvisor crea el mejor proftafolio de inversión par ti.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-2">
+        <div id="dots-wrapper" class="center_x">
+            <div class="dot-nav" (click)="cambiarEstado(1)"></div>
+            <div class="dot-nav" (click)="cambiarEstado(2)"></div>
+            <div class="dot-nav" (click)="cambiarEstado(3)"></div>
+        </div>
+    </div>
+    <div class="card mt-2">
+        <div class="row details m-2 pt-2">
+            <div class="col-8">
+                <p>10 gastos que debes evitar</p>
+                <p style="font-size: x-small;">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+            </div>
+            <div class="col-4"><img src="../../../assets/blog/IMG1.png" alt="img1" style="width: 80px;"></div>
+        </div>
+
+        <div class="row details m-2 ">
+            <div class="col-8">
+                <p>10 gastos que debes evitar</p>
+                <p style="font-size: x-small;">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+            </div>
+            <div class="col-4"><img src="../../../assets/blog/IMG2.png" alt="img2" style="width: 80px;"></div>
+        </div>
+
+        <div class="row  m-2 ">
+            <div class="col-8">
+                <p>10 gastos que debes evitar</p>
+                <p style="font-size: x-small;">Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+            </div>
+            <div class="col-4"><img src="../../../assets/blog/IMG3.png" alt="img3" style="width: 80px;"></div>
+        </div>
+    </div>
+
+
+</div>

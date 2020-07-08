@@ -1,0 +1,10 @@
+.totalEfectivo {
+    background: #41CF69;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 1px 8px;
+    width: 36px;
+    height: 15px;
+    font-size: 10px;
+}

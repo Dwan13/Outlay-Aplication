@@ -9,7 +9,13 @@ import { HistorialComponent } from './components/historial/historial.component';
 import { AhorrarComponent } from './components/ahorrar/ahorrar.component';
 import { MiPerfilComponent } from './components/mi-perfil/mi-perfil.component';
 import { HomeComponent } from './components/home/home.component';
-import { fromEventPattern } from 'rxjs';
+import { PortafolioComponent } from './components/home/svg/portafolio/portafolio.component';
+import { CarouselComponent } from './components/home/carousel/carousel.component';
+import { SalarioComponent } from './components/home/sections/salario/salario.component';
+import { MetasComponent } from './components/home/sections/metas/metas.component';
+import { PautasAhorroComponent } from './components/home/sections/pautas-ahorro/pautas-ahorro.component';
+import { ConocePortafolioComponent } from './components/home/sections/conoce-portafolio/conoce-portafolio.component';
+import { CicleComponent } from './components/home/svg/cicle/cicle.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +24,13 @@ import { fromEventPattern } from 'rxjs';
     AhorrarComponent,
     MiPerfilComponent,
     HomeComponent,
+    PortafolioComponent,
+    CarouselComponent,
+    SalarioComponent,
+    MetasComponent,
+    PautasAhorroComponent,
+    ConocePortafolioComponent,
+    CicleComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,74 @@
+.slide {
+    height: 100%;
+    width: 100%;
+}
+
+#dots-wrapper {
+    display: flex;
+    bottom: 30px;
+}
+
+.dot-nav {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 0 8px;
+    border: 2px solid #d6d6d6;
+    background: #D7C7FF;
+}
+
+.dot-nav:hover {
+    background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+}
+
+.simulandoVideoImg {
+    background-image: url("../../../../../assets/media/thumb.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.simulandoVideoPlay {
+    z-index: 10;
+    position: absolute;
+    left: 45%;
+    right: 8.33%;
+    top: 25%;
+    bottom: 8.33%;
+}
+
+.tituloAhorro {
+    color: white;
+    margin-top: 50%;
+    background-image: url("../../../../../assets/media/Vector 6.png");
+    background-size: 100% 99%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 100.479%;
+    height: 100px;
+    margin-left: -1px;
+}
+
+.tituloAhorro h6 {
+    margin-top: 5%;
+    padding: 5px 20px;
+}
+
+.tituloAhorro p {
+    padding: 0px 50px 0 20px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: .5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}

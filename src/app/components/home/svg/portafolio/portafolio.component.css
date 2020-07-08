@@ -1,0 +1,27 @@
+#slide1,
+#slide2,
+#slide3,
+#slide4,
+#slide5,
+#slide6,
+#slide7,
+#slide8,
+#slide9,
+#slide10 {
+    cursor: pointer;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+#slide1:hover,
+#slide2:hover,
+#slide3:hover,
+#slide4:hover,
+#slide5:hover,
+#slide6:hover,
+#slide7:hover,
+#slide8:hover,
+#slide9:hover,
+#slide10:hover {
+    fill: #41CF69;
+}

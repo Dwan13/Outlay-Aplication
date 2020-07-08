@@ -67,3 +67,9 @@ td {
     border-radius: 20px;
     border: 1px #41CF69 solid;
 }
+
+@media (min-width: 600px) {
+    .usuarioImagen {
+        left: 50%;
+    }
+}

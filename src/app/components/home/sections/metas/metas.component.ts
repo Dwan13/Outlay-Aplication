@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output } from '@angular/core';
+import { Component, OnInit, Input, Output, OnChanges, SimpleChanges } from '@angular/core';
 declare var jQuery:any;
 declare var $:any;
 
@@ -7,7 +7,7 @@ declare var $:any;
   templateUrl: './metas.component.html',
   styleUrls: ['./metas.component.css']
 })
-export class MetasComponent implements OnInit {
+export class MetasComponent implements OnInit, OnChanges{
  @Input() gasto:number;
  viaje:number;
  computador:number;
@@ -19,9 +19,13 @@ export class MetasComponent implements OnInit {
  this.percent=Math.round((this.gasto*100)/this.computador)
   
   }
+  ngOnChanges(changes: SimpleChanges): void {
+    this.percent=Math.round((this.gasto*100)/this.computador)
+  }
  
   ngOnInit(): void {
     
   }
+  
 
 }
